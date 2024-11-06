@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+
+<html>
+<title>GlacierV4B</title>
+<link rel="icon" href="">
+<!--Keep everything extremely organized so we can just use this for everything and change everything easily. Also use class instead of id and use normal names like navbar and not mutton. ID is for Javascript, Class is CSS.-->
+<!--This style is only for things that edit the WHOLE document. / Large Divs / Body / Head-->
+<style>
+    html {
+      background: rgb(45, 45, 45);
+    }
+</style>
+  <head>
+    <div class="nav">
+      <header class="navbar">
+        <h1 class="title">Glacier V4 Beta 0.2</h1>
+      </header>
+    </div>
+    <!--This script is only for the header-->
+    <script>
+
+    </script>
+    <!--This style is only for the Header.-->
+    <style>
+      div.nav {
+        top: 0;
+        padding: 2px;
+        height: 10%;
+        width: 100%;
+        position: sticky;
+        background: transparent;
+        backdrop-filter: blur(15px);
+        border-radius: 12px;
+        border: none;
+      }
+    
+      .title {
+        text-align: center;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+      }
+    </style>
+    <!--Eventually I want to use a button on either side to scroll rather than traditional scrolling but this will do for now.-->
+    <h1 class="gamestitle">Games 1</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 2</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 3</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 4</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 5</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 6</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 7</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 8</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 9</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <h1 class="gamestitle">Games 10</h1>
+    <div class="scrollmenu">
+      <!--THIS IS tHE ONLY FORMAT THAT WORKS FOR IMAGES IN A HORIZONTAL SCROLLBAR. DO NOT DELETE. Also only use around 12-20 games for the sliders. I'm eventually going to code a main page for the apps so we'll jsut format that for additional games.-->
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/BasketStars.html"><img class="gameimg" src="resources/gameimgs/BBS.jpeg"></a>
+      </button>
+      
+      <button>
+        <a href="games/Proxy.html"><img class="gameimg" src="resources/gameimgs/UV.png"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+      
+      <button>
+        <a href="games/2048.html"><img class="gameimg" src="resources/gameimgs/2048.jpg"></a>
+      </button>
+    </div>
+    <!--THIS SCRIPT IS ONLY FOR THE SCROLL MENUS
+    Make another if you need to change something-->
+    <script>
+
+    </script>
+    <!--THIS STYLE IS ONLY FOR THE SCROLL MENUS
+    Make another if you need to change something-->
+    <style>
+      .gamestitle {
+        color: rgb(255, 255, 255);
+        font-size: ;
+      }
+    
+      .gameimg {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+      }
+    
+      button {
+        height:14%;
+        width:14%;
+        border: none;
+        background: transparent;
+      }
+    
+      div.scrollmenu {
+        background: transparent;
+        overflow: auto;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  
+  <body>
+    
+  </body>
+</html>
